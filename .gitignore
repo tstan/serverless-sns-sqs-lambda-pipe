@@ -1,0 +1,24 @@
+# package directories
+node_modules
+jspm_packages
+
+app/config/local*
+scripts/.env.json
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+*.DS_STORE
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.vscode
+
+.env
+data/
+db-dump/
+*.local.conf
+
+.serverless
